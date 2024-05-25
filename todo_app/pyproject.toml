@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "appp"
+version = "0.1.0"
+description = ""
+authors = ["khalidch73 <khalidnawazch73@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.110.0"
+sqlmodel = "^0.0.16"
+psycopg = {extras = ["binary"], version = "^3.1.18"}
+pytest = "^8.1.1"
+httpx = "^0.27.0"
+python-multipart = "^0.0.9"
+passlib = {extras = ["bcrypt"], version = "^1.7.4"}
+python-jose = {extras = ["cryptography"], version = "^3.3.0"}
+psycopg2-binary = "^2.9.9"
+uvicorn = {extras = ["standard"], version = "^0.27.1"}
+email-validator = "^2.1.1"
+tenacity = "^8.2.3"
+pydantic = "^2.6.4"
+emails = "^0.6"
+aiokafka = "^0.10.0"
+protobuf = "^5.27.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
